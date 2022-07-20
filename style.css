@@ -1,0 +1,47 @@
+body {
+  background-color: #4d4c48;
+  color: #3cd8ff;
+  font-family: "Nunito";
+  text-align: center;
+  line-height: 1.4;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+p {
+  font-size: 1em;
+}
+
+hr {
+	border: none;
+	background-color: #3cd8ff;
+	height: 5px;
+	width: 80%;
+}
+
+.links {
+  text-decoration: none;
+	color: #cc29ed;
+}
+
+.links:visited {
+	color: #a621ff;
+}
+
+.links:hover {
+	color: #2181ff;
+  cursor: pointer;
+}
+
+@font-face {
+  font-family: Nunito;
+  src: url('/Nunito-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
